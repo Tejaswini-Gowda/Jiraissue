@@ -23,7 +23,7 @@ jobs:
       uses: atlassian/gajira-create@master
       with:
         project: PA
-        issuetype: "${{ github.event.issue.label }}"
+        issuetype: "${{ github.event.issue.labels }}"
         summary: "${{ github.event.issue.title }} #${{ github.event.issue.number }}"
         description: "${{ github.event.issue.body }}"
 
