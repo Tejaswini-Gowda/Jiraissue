@@ -25,7 +25,7 @@ jobs:
         project: PA
         issuetype: Bug
         summary: |
-          bug track ${{ github.repository }}
+          bug track ${{ github.event.issue.title }}
         description: |
           Compare branch
 
