@@ -1,9 +1,8 @@
+name: Github Create issue
 on:
   issues:
-    types: [opened, edited, created]
-
-name: Create jira issue
-
+    types: [opened, edited, milestoned]
+  
 jobs:
   Create-jira-issue:
     name: Create Issue
