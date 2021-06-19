@@ -1,6 +1,6 @@
 on:
-  label:
-    types: [created, deleted]
+  issues:
+    types: [opened, edited, created]
 
 name: Create jira issue
 
