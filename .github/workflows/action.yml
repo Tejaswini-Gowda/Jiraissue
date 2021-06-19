@@ -22,7 +22,7 @@ jobs:
       id: create
       uses: atlassian/gajira-create@master
       with:
-        project: Project A
+        project: PA
         issuetype: Task
         summary: |
           Build completed for ${{ github.repository }}
