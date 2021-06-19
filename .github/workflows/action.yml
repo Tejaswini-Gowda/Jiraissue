@@ -25,7 +25,7 @@ jobs:
         project: PA
         issuetype: Task
         summary: |
-          Build completed for ${{ github.repository }}
+          Build completed for ${{ github.issues }}
         description: |
           Compare branch
 
