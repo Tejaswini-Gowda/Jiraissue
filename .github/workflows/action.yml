@@ -24,8 +24,10 @@ jobs:
       with:
         project: PA
         issuetype: Bug
-        summary: "${{ github.event.issue.title }} #${{ github.event.issue.number }}"
-        description: "${{ github.event.issue.body }}"
+        summary: |
+          Build completed for ${{ github.repository }}
+        description: |
+          Compare branch
 
     - name: Log created issue
       run: echo "Issue ${{ steps.create.outputs.issue }} was created"
