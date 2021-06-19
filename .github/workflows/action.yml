@@ -24,7 +24,7 @@ jobs:
       with:
         project: PA
         issuetype: Bug
-        summary: "${{ github.event.issue.title }} ${{ github.event.issue.number }}"
+        summary: "${{ github.event.issue.title }} #${{ github.event.issue.number }}"
         description: "${{ github.event.issue.body }}"
 
     - name: Log created issue
