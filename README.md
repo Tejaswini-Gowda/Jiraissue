@@ -1,3 +1,3 @@
 # Jiraissue
 jira issue create
-created
+issue created
