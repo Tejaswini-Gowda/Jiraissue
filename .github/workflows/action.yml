@@ -23,9 +23,9 @@ jobs:
       uses: atlassian/gajira-create@master
       with:
         project: PA
-        issuetype: Task
+        issuetype: Bug
         summary: |
-          Build completed for ${{ github.issues }}
+          bug track ${{ github.repository }}
         description: |
           Compare branch
 
