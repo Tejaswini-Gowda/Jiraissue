@@ -1,6 +1,5 @@
 on:
-  push
-   label:
+  label:
     types: [created, deleted]
 
 name: Create jira issue
