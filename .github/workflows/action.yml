@@ -1,11 +1,11 @@
 on:
   push
 
-name: Test Transition Issue
+name: Create jira issue
 
 jobs:
-  test-transition-issue:
-    name: Transition Issue
+  Create jira issue:
+    name: Create Issue
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
