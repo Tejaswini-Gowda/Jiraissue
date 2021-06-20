@@ -21,4 +21,4 @@ jobs:
         name: Build
         uses: ./action
         with:
-          file: ./test/Dockerfile
+          file: ./Dockerfile
