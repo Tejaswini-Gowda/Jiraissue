@@ -1,5 +1,3 @@
-name: ci
-
 name: docker image
 on:
   push:
