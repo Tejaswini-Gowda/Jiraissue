@@ -1,2 +1,2 @@
 FROM ubantu:latest
-CMD ["date"]
+CMD ["echo", "welcome to docker image"]
